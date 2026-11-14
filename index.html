@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whidbey Island Photo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Whidbey Island Photo</div>
+    <nav id="gallery-nav" class="gallery-nav"></nav>
+  </header>
+
+  <main>
+    <div id="device-indicator" class="device-badge"></div>
+    <section id="gallery-container" class="gallery-layout"></section>
+  </main>
+
+  <!-- Lightbox Modal for Desktop/Tablet -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true">
+    <button id="lightbox-close" class="lightbox-btn close" aria-label="Close">&times;</button>
+    <button id="lightbox-prev" class="lightbox-btn prev" aria-label="Previous">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption"></p>
+    </div>
+    <button id="lightbox-next" class="lightbox-btn next" aria-label="Next">&#10095;</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
