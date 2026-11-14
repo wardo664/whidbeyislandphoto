@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: wardo664/whidbeyislandphoto  # Replace with your actual GitHub username and repo name
   branch: main
 
 media_folder: "images/uploads"
